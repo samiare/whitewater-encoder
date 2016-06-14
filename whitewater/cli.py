@@ -10,7 +10,6 @@
   whitewater (-h | --help | --version)
 
 \033[1mOptions:\033[0m
-  -d, --debug           Turn on debug mode.
   --blocksize <size>    The width/height of a single grid cell when checking one
                         frame against the previous one. [default: 8]
   --grid <size>         The size of the diffmap images in rows and columns, not
@@ -97,8 +96,7 @@ def get_arguments():
                'quality': int(arguments['--quality']),
                'threshold': float(arguments['--threshold']),
                'format': str(arguments['--format']),
-               'grid': int(arguments['--grid']),
-               'debug': arguments['--debug']}
+               'grid': int(arguments['--grid'])}
 
     files = arguments['<file>']
 

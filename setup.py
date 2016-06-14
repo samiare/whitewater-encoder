@@ -10,17 +10,18 @@ version = re.search('^__version__\s*=\s*\'(.*)\'',
                     open('whitewater/__init__.py').read(),
                     re.M).group(1)
 
-long_desription = open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
+long_desription = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
 setup(name = 'whitewater',
       version = version,
-      description = ('Convert videos into a format readable by the'
-                     'Whitewater Video Decoder Javascript library.'),
+      description = ('Convert videos into a format readable by the '
+                     'Whitewater Player Javascript library.'),
       long_description = long_desription,
-      url = 'https://github.com/samiare/whitewater-video-encoder',
+      url = 'https://github.com/samiare/whitewater-encoder',
       author = 'Samir Zahran',
       author_email = 'sayhello@samiare.net',
-      classifiers = ['Development Status :: 3 - Alpha',
+      license = 'MIT',
+      classifiers = ['Development Status :: 5 - Production/Stable',
                      'Environment :: Console',
                      'Intended Audience :: Developers',
                      'License :: OSI Approved :: MIT License',

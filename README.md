@@ -45,7 +45,6 @@ $ whitewater path/to/video.mp4
 The script can take a handful of options:
 
 ```
--d, --debug          Turn on debug mode.
 --blocksize <size>   The width/height of a single grid cell when
                      checking one frame against the previous one.
 --grid <size>        The size of the diffmap images in rows and

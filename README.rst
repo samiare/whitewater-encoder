@@ -7,35 +7,10 @@ format.
 Description
 -----------
 
-Together, Whitewater Encoder and `Whitewater
+Together, `Whitewater Encoder <https://github.com/samiare/whitewater-encoder>`__ and `Whitewater
 Player <https://github.com/samiare/whitewater-player>`__ give you the
 ability to play inline video in mobile web browsers complete with
 programatic playback controls and events.
-
-Installation
-============
-
-From `PyPI <http://pypi.python.org>`__
---------------------------------------
-
-.. code:: bash
-
-    $ pip install whitewater
-
-Manual installation
--------------------
-
-`Download the
-package <https://github.com/samiare/whitewater-encoder/releases/latest>`__
-and run the setup script:
-
-.. code:: bash
-
-    $ cd path/to/module
-    $ python setup.py install
-
-Usage
-=====
 
 Command Line
 ------------
@@ -60,7 +35,6 @@ The script can take a handful of options:
 
 ::
 
-    -d, --debug          Turn on debug mode.
     --blocksize <size>   The width/height of a single grid cell when
                          checking one frame against the previous one.
     --grid <size>        The size of the diffmap images in rows and
@@ -73,7 +47,7 @@ The script can take a handful of options:
 
 For a full explanation of what these do and when you might want to use
 them, check `the
-documentation <https://github.com/samiare/whitewater-encoder/wiki/Appendix#how-the-encoder-works>`__.
+documentation <https://github.com/samiare/whitewater-encoder/wiki/Appendix>`__.
 
 Python Module
 -------------
