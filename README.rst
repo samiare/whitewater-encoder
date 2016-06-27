@@ -1,28 +1,32 @@
 Whitewater Encoder
 ==================
 
-A command line utility that converts short videos into the Whitewater
-format.
+A command line utility that converts short videos a format that can be played on mobile websites with the Whitewater Player Javascript library.
 
-Description
------------
+→ `Full Documentation <https://github.com/samiare/whitewater-encoder/wiki>`__
 
-Together, `Whitewater Encoder <https://github.com/samiare/whitewater-encoder>`__ and `Whitewater
-Player <https://github.com/samiare/whitewater-player>`__ give you the
-ability to play inline video in mobile web browsers complete with
-programatic playback controls and events.
+→ `Whitewater Player <https://github.com/samiare/whitewater-player>`__ (needed to play videos)
 
-Command Line
+→ `Example Site <https://samiare.github.io/whitewater-player/>`__
+
+
+Installation
 ------------
 
-The Whitewater package contains a simple command line interface.
+.. code:: bash
+
+    $ pip install whitewater
+
+
+Usage
+-----
 
 .. code:: bash
 
     $ whitewater <file> [options]
     $ whitewater (-h | --help | --version)
 
-**Basic Example**
+**Example:**
 
 .. code:: bash
 
@@ -30,8 +34,6 @@ The Whitewater package contains a simple command line interface.
 
 Options
 ~~~~~~~
-
-The script can take a handful of options:
 
 ::
 
@@ -47,14 +49,12 @@ The script can take a handful of options:
 
 For a full explanation of what these do and when you might want to use
 them, check `the
-documentation <https://github.com/samiare/whitewater-encoder/wiki/Appendix>`__.
+documentation <https://github.com/samiare/whitewater-encoder/wiki/Glossary>`__.
 
 Python Module
 -------------
 
-Whitewater can also be used as a module in your own Python scripts. The
-``Whitewater()`` class and its options are described in detail in the
-`full
+Whitewater can also be used as a module in your own Python scripts. The ``Whitewater()`` class and its options are described in detail in the `full
 documentation <https://github.com/samiare/whitewater-encoder/wiki>`__.
 
 .. code:: python
@@ -63,11 +63,3 @@ documentation <https://github.com/samiare/whitewater-encoder/wiki>`__.
 
     video = Whitewater('path/to/video.mp4')
     video.encode()
-
-Full Documentation
-------------------
-
-`Check out the
-wiki <https://github.com/samiare/whitewater-encoder/wiki>`__.
-
-✌︎
