@@ -5,7 +5,10 @@ A command line utility that converts short videos a format that can be played on
 
 → `Full Documentation <https://github.com/samiare/whitewater-encoder/wiki>`__
 
-→ `Whitewater Player <https://github.com/samiare/whitewater-player>`__ (needed to play videos)
+Together, `Whitewater Encoder <https://github.com/samiare/whitewater-encoder>`__ and `Whitewater
+Player <https://github.com/samiare/whitewater-mobile-video>`__ give you the
+ability to play inline video in mobile web browsers complete with
+programatic playback controls and events.
 
 → `Example Site <https://samiare.github.io/whitewater-player/>`__
 
@@ -48,8 +51,7 @@ Options
     --format <filetype>  File format to save diffmap images as.
 
 For a full explanation of what these do and when you might want to use
-them, check `the
-documentation <https://github.com/samiare/whitewater-encoder/wiki/Glossary>`__.
+them, check `the documentation <https://github.com/samiare/whitewater-encoder/wiki/How It Works>`__.
 
 Python Module
 -------------
