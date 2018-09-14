@@ -1,3 +1,9 @@
+### :warning: IMPORTANT UPDATE :warning:
+
+This project (and the corresponding [player library](https://github.com/samiare/whitewater-mobile-video)) are **no longer maintained**.
+
+This was an enormously fun project to create, but I never had adequate time for updates and it was made almost immediately obsolete by the adoption of auto-play HTML5 video in most mobile web browsers soon after it's initial release.
+
 # Whitewater Encoder
 
 Learn about Whitewater Mobile Video on the [homepage](https://samiare.github.io/whitewater-mobile-video/) or on [GitHub](https://github.com/samiare/whitewater-mobile-video).
